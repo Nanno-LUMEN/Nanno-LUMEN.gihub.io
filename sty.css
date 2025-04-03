@@ -1,0 +1,31 @@
+/* 设置全局样式 */
+body {
+    background-color: black; /* 黑色背景 */
+    color: white; /* 文字颜色白色 */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: cyan;
+}
+
+/* 按钮样式 */
+button {
+    background-color: #00ffcc;
+    color: black;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* 按钮悬停效果 */
+button:hover {
+    background-color: #009966;
+}
