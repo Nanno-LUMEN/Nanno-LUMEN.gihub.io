@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margin 控制段落间距</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto; /* 让内容居中 */
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+        }
+
+        h1 {
+            margin-bottom: 20px; /* 标题下方间距 */
+        }
+
+        p {
+            background-color: lightgray; /* 让段落更明显 */
+            padding: 10px; /* 内边距 */
+            margin-bottom: 30px; /* 每个段落下方有 30px 间距 */
+        }
+
+        .no-margin {
+            margin-bottom: 0; /* 这个段落没有额外间距 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>使用 CSS `margin` 控制段落间距</h1>
+
+        <p>这是第一段文本，它的下方有 30px 的间距。</p>
+        <p>这是第二段文本，它的下方也有 30px 的间距。</p>
+        <p class="no-margin">这是最后一段，没有额外的 `margin-bottom`。</p>
+    </div>
+
+</body>
+</html>
